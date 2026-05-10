@@ -1,4 +1,9 @@
 package com.biblioteca.biblioteca.exception;
 
-public class ErrorResponse {
-}
+@Builder
+public record ErrorResponse(
+    int status,
+    String error,
+    String message,
+    LocalDateTime timestamp
+) {}
