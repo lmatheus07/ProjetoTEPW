@@ -1,9 +1,13 @@
+// exception/ErrorResponse.java
 package com.biblioteca.biblioteca.exception;
+
+import lombok.Builder;
+import java.time.LocalDateTime;
 
 @Builder
 public record ErrorResponse(
-    int status,
-    String error,
-    String message,
-    LocalDateTime timestamp
+        int status,
+        String error,
+        String message,
+        LocalDateTime timestamp
 ) {}
