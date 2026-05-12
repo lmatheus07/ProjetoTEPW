@@ -1,8 +1,8 @@
 package com.biblioteca.biblioteca.controller;
 
-import com.biblioteca.dto.usuario.UsuarioRequestDTO;
-import com.biblioteca.dto.usuario.UsuarioResponseDTO;
-import com.biblioteca.service.UsuarioService;
+import com.biblioteca.biblioteca.dto.usuario.UsuarioRequestDTO;
+import com.biblioteca.biblioteca.dto.usuario.UsuarioResponseDTO;
+import com.biblioteca.biblioteca.service.UsuarioService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;

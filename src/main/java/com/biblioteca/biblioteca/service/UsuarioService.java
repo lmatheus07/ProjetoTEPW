@@ -1,10 +1,10 @@
 package com.biblioteca.biblioteca.service;
 
-import com.biblioteca.dto.usuario.UsuarioRequestDTO;
-import com.biblioteca.dto.usuario.UsuarioResponseDTO;
-import com.biblioteca.exception.ResourceNotFoundException;
-import com.biblioteca.model.Usuario;
-import com.biblioteca.repository.UsuarioRepository;
+import com.biblioteca.biblioteca.dto.usuario.UsuarioRequestDTO;
+import com.biblioteca.biblioteca.dto.usuario.UsuarioResponseDTO;
+import com.biblioteca.biblioteca.exception.ResourceNotFoundException;
+import com.biblioteca.biblioteca.model.Usuario;
+import com.biblioteca.biblioteca.repository.UsuarioRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import java.time.LocalDate;

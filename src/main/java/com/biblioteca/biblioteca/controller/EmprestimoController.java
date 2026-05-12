@@ -1,9 +1,9 @@
 package com.biblioteca.biblioteca.controller;
 
-import com.biblioteca.dto.emprestimo.EmprestimoAtualizarStatusDTO;
-import com.biblioteca.dto.emprestimo.EmprestimoRequestDTO;
-import com.biblioteca.dto.emprestimo.EmprestimoResponseDTO;
-import com.biblioteca.service.EmprestimoService;
+import com.biblioteca.biblioteca.dto.emprestimo.EmprestimoAtualizarStatusDTO;
+import com.biblioteca.biblioteca.dto.emprestimo.EmprestimoRequestDTO;
+import com.biblioteca.biblioteca.dto.emprestimo.EmprestimoResponseDTO;
+import com.biblioteca.biblioteca.service.EmprestimoService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;

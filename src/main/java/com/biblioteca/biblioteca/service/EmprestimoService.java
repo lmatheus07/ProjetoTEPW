@@ -1,11 +1,11 @@
 package com.biblioteca.biblioteca.service;
 
-import com.biblioteca.dto.emprestimo.EmprestimoAtualizarStatusDTO;
-import com.biblioteca.dto.emprestimo.EmprestimoRequestDTO;
-import com.biblioteca.dto.emprestimo.EmprestimoResponseDTO;
-import com.biblioteca.exception.ResourceNotFoundException;
-import com.biblioteca.model.*;
-import com.biblioteca.repository.*;
+import com.biblioteca.biblioteca.dto.emprestimo.EmprestimoAtualizarStatusDTO;
+import com.biblioteca.biblioteca.dto.emprestimo.EmprestimoRequestDTO;
+import com.biblioteca.biblioteca.dto.emprestimo.EmprestimoResponseDTO;
+import com.biblioteca.biblioteca.exception.ResourceNotFoundException;
+import com.biblioteca.biblioteca.model.*;
+import com.biblioteca.biblioteca.repository.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import java.time.LocalDate;

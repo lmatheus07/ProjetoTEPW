@@ -5,34 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b2255eb-62f9-422b-a55c-62d09cf3d50d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/controller/AutorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/controller/CategoriaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/dto/autor/AutorRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/dto/autor/AutorResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/dto/categoria/CategoriaRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/dto/categoria/CategoriaResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/model/Autor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/model/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/repository/AutorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/repository/CategoriaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/service/AutorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/service/CategoriaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/exception/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/exception/ErrorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/controller/EmprestimoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/controller/EmprestimoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/controller/LivroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/controller/LivroController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/controller/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/dto/emprestimo/EmprestimoAtualizarStatusDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/dto/emprestimo/EmprestimoAtualizarStatusDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/repository/EmprestimoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/repository/EmprestimoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/repository/LivroRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/repository/LivroRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/repository/UsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/service/EmprestimoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/service/EmprestimoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/service/LivroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/service/LivroService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/service/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/biblioteca/biblioteca/service/UsuarioService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
